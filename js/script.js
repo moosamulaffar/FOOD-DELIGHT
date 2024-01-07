@@ -17,7 +17,7 @@ function loadFood() {
 }
 
 function loadContent() {
-  //Remove Food Items  From Cart
+  //Remove Food Items From Cart
   let btnRemove = document.querySelectorAll(".cart-remove");
   btnRemove.forEach((btn) => {
     btn.addEventListener("click", removeItem);
